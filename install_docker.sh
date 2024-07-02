@@ -19,10 +19,4 @@ sudo usermod -aG docker $USER
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.28.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# Show message
-echo "The system will reboot in 10 seconds"
-sleep 10
-
-echo "Rebooting System"
-# Reboot system
-exit
+echo "Restart Shell"
