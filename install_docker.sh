@@ -25,4 +25,4 @@ sleep 10
 
 echo "Rebooting System"
 # Reboot system
-sudo reboot
+exit
