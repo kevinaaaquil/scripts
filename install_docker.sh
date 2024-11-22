@@ -16,7 +16,6 @@ sudo docker ps -a
 sudo usermod -aG docker $USER
 
 # Download and install Docker Compose
-curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+curl -SL https://github.com/docker/compose/releases/download/v2.30.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 
 echo "Restart Shell"
